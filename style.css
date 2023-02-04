@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+  }
+  body{
+  
+    display: block;
+    margin:auto;
+    background-color: springgreen;
+    width: 60%;
+    
+  }
+  #container{
+    height: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .time{
+    font-size: 70px;
+  }
+  #btn_div{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn{
+    height: 75px;
+    width: 75px;
+    font-size: 20px;
+    border: 2px solid orange;
+    border-radius: 40px;
+  }
+  #navbar{
+    height: 50px;
+    background-color:lightblue;
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #cleardata{
+    height: 30px;
+    width: 100px;
+    /* color: orange; */
+    border:2px solid black;
+    border-radius: 5px;
+  }
